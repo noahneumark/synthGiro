@@ -2,8 +2,25 @@
 <!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
 <plist version="1.0">
 <dict>
+	<key>AudioComponents</key>
+	<array>
+		<dict>
+			<key>manufacturer</key>
+			<string>dOjO</string>
+			<key>name</key>
+			<string>AudioKit: Sender</string>
+			<key>subtype</key>
+			<string>sndx</string>
+			<key>type</key>
+			<string>aurg</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+	</array>
 	<key>CFBundleDevelopmentRegion</key>
 	<string>en</string>
+	<key>CFBundleDisplayName</key>
+	<string>synthGiro</string>
 	<key>CFBundleExecutable</key>
 	<string>$(EXECUTABLE_NAME)</string>
 	<key>CFBundleIdentifier</key>
@@ -16,10 +33,29 @@
 	<string>APPL</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleTypeRole</key>
+			<string>Editor</string>
+			<key>CFBundleURLIconFile</key>
+			<string>/Users/noahneumark/Desktop/synfess/ios/AppIcon.appiconset/Icon-App-40x40@2x.png</string>
+			<key>CFBundleURLName</key>
+			<string>io.audiokit.synthGiro</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>synthGiro-1.0.audiobus</string>
+			</array>
+		</dict>
+	</array>
 	<key>CFBundleVersion</key>
 	<string>1</string>
 	<key>LSRequiresIPhoneOS</key>
 	<true/>
+	<key>UIBackgroundModes</key>
+	<array>
+		<string>audio</string>
+	</array>
 	<key>UILaunchStoryboardName</key>
 	<string>LaunchScreen</string>
 	<key>UIMainStoryboardFile</key>

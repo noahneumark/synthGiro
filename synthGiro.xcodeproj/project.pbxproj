@@ -7,15 +7,41 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CADEB8E33242168C60E9A611 /* Pods_synthGiro.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 540218D343B4DFFA66C8515D /* Pods_synthGiro.framework */; };
 		F87547821EB27789005CC422 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87547811EB27789005CC422 /* AppDelegate.swift */; };
 		F87547841EB27789005CC422 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87547831EB27789005CC422 /* ViewController.swift */; };
 		F87547871EB27789005CC422 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F87547851EB27789005CC422 /* Main.storyboard */; };
 		F875478A1EB27789005CC422 /* synthGiro.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F87547881EB27789005CC422 /* synthGiro.xcdatamodeld */; };
 		F875478C1EB27789005CC422 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F875478B1EB27789005CC422 /* Assets.xcassets */; };
 		F875478F1EB27789005CC422 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F875478D1EB27789005CC422 /* LaunchScreen.storyboard */; };
+		F875479B1EB279B6005CC422 /* AudioKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F875479A1EB279B6005CC422 /* AudioKit.framework */; };
+		F875479C1EB279B6005CC422 /* AudioKit.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = F875479A1EB279B6005CC422 /* AudioKit.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		F87547A01EB2BAEF005CC422 /* settingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F875479F1EB2BAEF005CC422 /* settingsViewController.swift */; };
+		F87547A31EB2BEE7005CC422 /* Audiobus.swift in Sources */ = {isa = PBXBuildFile; fileRef = F87547A21EB2BEE7005CC422 /* Audiobus.swift */; };
+		F87547A61EB2BFBD005CC422 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F87547A51EB2BFBD005CC422 /* AudioToolbox.framework */; };
+		F87547A91EB2D034005CC422 /* Audiobus.txt in Resources */ = {isa = PBXBuildFile; fileRef = F87547A81EB2D034005CC422 /* Audiobus.txt */; };
+		F87547AB1EB2DB31005CC422 /* Icon-App-40x40@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = F87547AA1EB2DB31005CC422 /* Icon-App-40x40@2x.png */; };
+		F897783F1EB2ECC100848483 /* settingsDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F897783E1EB2ECC100848483 /* settingsDelegate.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		F875479D1EB279B6005CC422 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				F875479C1EB279B6005CC422 /* AudioKit.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		47E96C1AFEEABD042E107300 /* Pods-synthGiro.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-synthGiro.release.xcconfig"; path = "Pods/Target Support Files/Pods-synthGiro/Pods-synthGiro.release.xcconfig"; sourceTree = "<group>"; };
+		540218D343B4DFFA66C8515D /* Pods_synthGiro.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_synthGiro.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		54F3EFDADB4F45593A064B4E /* Pods-synthGiro.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-synthGiro.debug.xcconfig"; path = "Pods/Target Support Files/Pods-synthGiro/Pods-synthGiro.debug.xcconfig"; sourceTree = "<group>"; };
 		F875477E1EB27789005CC422 /* synthGiro.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = synthGiro.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F87547811EB27789005CC422 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F87547831EB27789005CC422 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -24,6 +50,16 @@
 		F875478B1EB27789005CC422 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F875478E1EB27789005CC422 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F87547901EB27789005CC422 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F87547981EB27994005CC422 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
+		F875479A1EB279B6005CC422 /* AudioKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = AudioKit.framework; sourceTree = "<group>"; };
+		F875479F1EB2BAEF005CC422 /* settingsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsViewController.swift; sourceTree = "<group>"; };
+		F87547A21EB2BEE7005CC422 /* Audiobus.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Audiobus.swift; sourceTree = "<group>"; };
+		F87547A41EB2BFBD005CC422 /* synthGiro.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = synthGiro.entitlements; sourceTree = "<group>"; };
+		F87547A51EB2BFBD005CC422 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		F87547A71EB2C794005CC422 /* synthGiro-BridgingHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "synthGiro-BridgingHeader.h"; sourceTree = "<group>"; };
+		F87547A81EB2D034005CC422 /* Audiobus.txt */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; name = Audiobus.txt; path = synthGiro/Audiobus.txt; sourceTree = "<group>"; };
+		F87547AA1EB2DB31005CC422 /* Icon-App-40x40@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Icon-App-40x40@2x.png"; sourceTree = "<group>"; };
+		F897783E1EB2ECC100848483 /* settingsDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = settingsDelegate.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +67,43 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F875479B1EB279B6005CC422 /* AudioKit.framework in Frameworks */,
+				CADEB8E33242168C60E9A611 /* Pods_synthGiro.framework in Frameworks */,
+				F87547A61EB2BFBD005CC422 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0043F9198C475A6CCD278CC8 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F87547A51EB2BFBD005CC422 /* AudioToolbox.framework */,
+				540218D343B4DFFA66C8515D /* Pods_synthGiro.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		668B50037DB954E2A0FE128E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				54F3EFDADB4F45593A064B4E /* Pods-synthGiro.debug.xcconfig */,
+				47E96C1AFEEABD042E107300 /* Pods-synthGiro.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		F87547751EB27789005CC422 = {
 			isa = PBXGroup;
 			children = (
+				F87547AA1EB2DB31005CC422 /* Icon-App-40x40@2x.png */,
+				F87547A81EB2D034005CC422 /* Audiobus.txt */,
+				F875479A1EB279B6005CC422 /* AudioKit.framework */,
 				F87547801EB27789005CC422 /* synthGiro */,
 				F875477F1EB27789005CC422 /* Products */,
+				668B50037DB954E2A0FE128E /* Pods */,
+				0043F9198C475A6CCD278CC8 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -56,10 +118,16 @@
 		F87547801EB27789005CC422 /* synthGiro */ = {
 			isa = PBXGroup;
 			children = (
+				F87547A71EB2C794005CC422 /* synthGiro-BridgingHeader.h */,
+				F87547A41EB2BFBD005CC422 /* synthGiro.entitlements */,
+				F87547A21EB2BEE7005CC422 /* Audiobus.swift */,
 				F87547811EB27789005CC422 /* AppDelegate.swift */,
 				F87547831EB27789005CC422 /* ViewController.swift */,
 				F87547851EB27789005CC422 /* Main.storyboard */,
+				F897783E1EB2ECC100848483 /* settingsDelegate.swift */,
+				F875479F1EB2BAEF005CC422 /* settingsViewController.swift */,
 				F875478B1EB27789005CC422 /* Assets.xcassets */,
+				F87547981EB27994005CC422 /* AudioKit.framework */,
 				F875478D1EB27789005CC422 /* LaunchScreen.storyboard */,
 				F87547901EB27789005CC422 /* Info.plist */,
 				F87547881EB27789005CC422 /* synthGiro.xcdatamodeld */,
@@ -74,9 +142,13 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = F87547931EB27789005CC422 /* Build configuration list for PBXNativeTarget "synthGiro" */;
 			buildPhases = (
+				25982F92BDF37690201E2A8A /* [CP] Check Pods Manifest.lock */,
 				F875477A1EB27789005CC422 /* Sources */,
 				F875477B1EB27789005CC422 /* Frameworks */,
 				F875477C1EB27789005CC422 /* Resources */,
+				F875479D1EB279B6005CC422 /* Embed Frameworks */,
+				BDE39A109A6A87102825B28F /* [CP] Embed Pods Frameworks */,
+				9901075718AA9B169CE1CBC8 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -99,7 +171,16 @@
 				TargetAttributes = {
 					F875477D1EB27789005CC422 = {
 						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = LVRN76KSS3;
 						ProvisioningStyle = Automatic;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InterAppAudio = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -126,22 +207,75 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F87547AB1EB2DB31005CC422 /* Icon-App-40x40@2x.png in Resources */,
 				F875478F1EB27789005CC422 /* LaunchScreen.storyboard in Resources */,
 				F875478C1EB27789005CC422 /* Assets.xcassets in Resources */,
+				F87547A91EB2D034005CC422 /* Audiobus.txt in Resources */,
 				F87547871EB27789005CC422 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		25982F92BDF37690201E2A8A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		9901075718AA9B169CE1CBC8 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-synthGiro/Pods-synthGiro-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BDE39A109A6A87102825B28F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-synthGiro/Pods-synthGiro-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		F875477A1EB27789005CC422 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F87547A31EB2BEE7005CC422 /* Audiobus.swift in Sources */,
 				F87547841EB27789005CC422 /* ViewController.swift in Sources */,
 				F87547821EB27789005CC422 /* AppDelegate.swift in Sources */,
 				F875478A1EB27789005CC422 /* synthGiro.xcdatamodeld in Sources */,
+				F87547A01EB2BAEF005CC422 /* settingsViewController.swift in Sources */,
+				F897783F1EB2ECC100848483 /* settingsDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -192,6 +326,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = YES;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -243,6 +378,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = YES;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -264,24 +400,42 @@
 		};
 		F87547941EB27789005CC422 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 54F3EFDADB4F45593A064B4E /* Pods-synthGiro.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = synthGiro/synthGiro.entitlements;
+				DEVELOPMENT_TEAM = LVRN76KSS3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/synthGiro",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = synthGiro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dojo.synthGiro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/synthGiro/synthGiro-BridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
 		};
 		F87547951EB27789005CC422 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 47E96C1AFEEABD042E107300 /* Pods-synthGiro.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = synthGiro/synthGiro.entitlements;
+				DEVELOPMENT_TEAM = LVRN76KSS3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/synthGiro",
+					"$(PROJECT_DIR)",
+				);
 				INFOPLIST_FILE = synthGiro/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = dojo.synthGiro;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "$(SRCROOT)/synthGiro/synthGiro-BridgingHeader.h";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
@@ -305,6 +459,7 @@
 				F87547951EB27789005CC422 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
