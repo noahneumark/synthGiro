@@ -1,0 +1,3 @@
+static/* linguist-vendored
+docs/* linguist-documentation
+*.swift linguist-language=Swift
