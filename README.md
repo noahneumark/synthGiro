@@ -1,0 +1,2 @@
+# synthGiro
+A mobile synthesizer app built for iPhone with polyphonic capability.  Built in Swift 3.0, it utilizes the AudioKit framework.  It uses Core Motion input for tracking physical gestures and translates into sonic modulation of a low-pass filter and a delay effect.  A user can plug in a midi keyboard to trigger notes as well as use the on-screen keyboard.  The app includes an amplitude envelope control, a waveform slider, which phases between four waveforms, and an adjuster to affect the rate of the delay effect. (Swift/AudioKit)
